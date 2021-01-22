@@ -1,5 +1,3 @@
-export const url = 'https://itunes.apple.com/search';
-
-export const $track1 = $('#track1');
-export const $track2 = $('#track2');
-export const $video1 = $('#video1');
+export const url = 'https://itunes.apple.com/search?entity=musicVideo&term=2pac';
+export const trackName = document.querySelector('.list-counter-square');
+export const fill = document.querySelector('.filling');

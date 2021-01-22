@@ -5,6 +5,9 @@
     width: 30rem;
 }
 
+.main-content {
+    display: flex;
+}
 .list-counter-square>li:hover {
     background-color: #9c52c4;
 }
@@ -28,4 +31,8 @@
     bottom: 0;
     width: 0.5rem;
     background: #800dd8;
+}
+
+body {
+    background-color: #a4a9cf;
 }
