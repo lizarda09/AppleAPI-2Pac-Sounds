@@ -8,8 +8,17 @@
 .main-content {
     display: flex;
 }
+
+.filling {
+    margin: 100px;
+}
+
+img {
+    margin: auto;
+}
+
 .list-counter-square>li:hover {
-    background-color: #9c52c4;
+    background-color: #d4a752;
 }
 
 .list-counter-square>li {
@@ -17,8 +26,8 @@
     display: block;
     margin-bottom: .25rem;
     padding: .325rem .825rem .325rem 1.325rem;
-    color: #fff;
-    background: #9c64c4;
+    color: #e7e6e2;
+    background: #b44f1e;
 }
 .list-counter-square>li:last-child {
     margin-bottom: 0;
@@ -30,9 +39,9 @@
     top: 0;
     bottom: 0;
     width: 0.5rem;
-    background: #800dd8;
+    background: #1a1918;
 }
 
 body {
-    background-color: #a4a9cf;
+    background-color: #f5e1bf;
 }
