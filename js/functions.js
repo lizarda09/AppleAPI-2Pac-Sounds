@@ -14,9 +14,12 @@ console.log(id);
 for(let i =0; i< window.music.length; i++){
     if(id == window.music[i].trackId){
         fill.innerHTML = '';
+        const header = document.createElement('h1');
+        header.innerText = window.music[i].trackName;
         const clip = document.createElement('video');
         clip.setAttribute('src', window.music[i].previewUrl);
         clip.setAttribute('controls', 'controls');
+        fill.appendChild(header);
         fill.appendChild(clip);
     }
 }

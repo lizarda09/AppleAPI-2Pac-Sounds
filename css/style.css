@@ -2,7 +2,7 @@
     list-style: none;
     margin: 30px;
     padding: 0;
-    width: 30rem;
+    width: 35rem;
 }
 
 .main-content {
@@ -17,6 +17,12 @@ img {
     margin: auto;
 }
 
+h1 {
+    color: #b44f1e;
+    font-weight: 700;
+    margin: 50px;
+}
+
 .list-counter-square>li:hover {
     background-color: #d4a752;
 }
@@ -28,6 +34,7 @@ img {
     padding: .325rem .825rem .325rem 1.325rem;
     color: #e7e6e2;
     background: #b44f1e;
+    font-size: 2rem;
 }
 .list-counter-square>li:last-child {
     margin-bottom: 0;
@@ -44,4 +51,5 @@ img {
 
 body {
     background-color: #f5e1bf;
+    font-family: cursive;
 }
